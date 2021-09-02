@@ -40,7 +40,8 @@ size_t detectBD(std::string fPath) {
         delete[] fBuffer;
         return NULL;
     }
-
+    
+    std::cout << fName << " is not a binary file!\n";
     return NULL;
 }
 
