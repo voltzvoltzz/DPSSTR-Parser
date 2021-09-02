@@ -48,6 +48,8 @@ size_t detectBD(std::string fPath) {
 
 int main(int argc, char* argv[]) {
 
+    SetConsoleTitle("DPSSTRP by DeathZ");
+
     if (argc >= 2) {
         for (int x = 1; x < argc; x++) {
             detectBD(argv[x]);
